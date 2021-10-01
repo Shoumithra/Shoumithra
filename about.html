@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About|Travel agency website</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+    
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>ravel</a>
+
+    <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="about.html">about</a>
+        <a href="booknow.html">book</a>
+        <a href="packages.html">packages</a>
+        <a href="services.html">services</a>
+        <a href="gallery.html">gallery</a>
+        <a href="reviews.html">review</a>
+        <a href="contact.html">contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn" onclick="mifun()">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+<section>
+    <div class="about">
+        <img src="bgtravel.jpg">
+    </div>
+</section>
+
+<div class="about-1">
+    <div class="text">
+        <h3>ABOUT US</h3>
+        <p>
+            We continue to explore new places for you, our clients and we won’t sell a destination unless we’ve checked it out ourselves. There is a range of new tours with more being loaded weekly, plus a few of your old favorites. Each tour is designed with you in mind. With our many years of travel experience, we’ve sorted out the hassles for you, so you don’t have to. Our first-hand destination knowledge helps us build fabulous small group tour experiences for our International Travel Services Ltd, that are hassle free, informative and relaxing experiences for you and we invite you to join us on one of these fabulous experiences.
+        </p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="booknow.html">book</a>
+            <a href="packages.html">packages</a>
+            <a href="services.html">services</a>
+            <a href="gallery.html">gallery</a>
+            <a href="reviews.html">review</a>
+            <a href="contact.html">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span> Shou <i class="far fa-laugh-wink"></i> Subi <i class="far fa-laugh-wink"></i> Sreeni </span> | all rights reserved! </h1>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    function myfun(){
+    var userconformation = confirm("confirm booking");
+    if(userconformation == true){
+        alert("booking succesfull");
+        return true;
+    }else{
+        document.write("User Did not book");
+        return false;
+    }
+}
+</script>
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="sript.js"></script>
+
+</body>
+</html>
