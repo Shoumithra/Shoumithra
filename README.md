@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Shoumithra
 - 👀 I’m interested in Web designing 
-- 🌱 I’m currently learning CSE 3rd year
+- 🌱 I’m currently pursuing CSE 3rd year
 
 
 
